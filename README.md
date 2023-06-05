@@ -1,2 +1,2 @@
 # NotAussieIsADev
-This is the code for my **replit** site (using always on)
+Thanks to the is-a.dev team for giving these free sub domains!
