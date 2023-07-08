@@ -1,0 +1,552 @@
+/* This url endpoint may be disabled at any time! */
+
+/* AusCord Theme */
+/* 
+Copyright 2023 NotAussie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/* Discord status icons */
+@import url("https://notaussie.is-a.dev/use/discord-status-icons.css");
+
+/* Links */
+.OpenGraphEmbedContent-container {
+    background-color: #181818;
+}
+
+.OpenGraphEmbed-content {
+    background-color: #181818;
+}
+
+.UserBadge-container {
+    background-color: #181818;
+}
+
+.UserInfoSummaryItem-container {
+    background-color: #181818;
+    border-color: #181818;
+}
+
+/* Server/Channels */
+.NavSelectorItem-container-orientation-horizontal.NavSelectorItem-container-size-lg {
+    background-color: #181818;
+}
+
+.GroupSelector-v4-nav-portal {
+    background-color: #181818;
+}
+
+.GroupSelectorPreview-minimal-nav {
+    background-color: #181818;
+}
+
+.CreateGroupUsersListLivePreview-members-section {
+    background-color: #181818;
+}
+
+/* Not working */
+.CreateGroupChannelsListLivePreview-NavBar {
+    background-color: #1F1F1F;
+}
+
+.GroupList-container {
+    background-color: #181818;
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+.TeamRoleSelector-container .TeamRoleSelector-search-select {
+    background-color: #181818;
+}
+
+.TransientMenu-container-style-default {
+    background-color: #181818;
+    --bg-color: #181818;
+}
+
+.OptionsMenu-container-desktop .OptionsMenu-options-control {
+    background-color: #181818;
+}
+
+.DesktopAppCaptureDevicePickerOverlay-options {
+    background-color: #1F1F1F;
+}
+
+.DesktopCaptureOptionPreview-option-preview {
+    background-color: #181818;
+}
+
+.SwitchInput-container-on .SwitchInput-slide {
+    background-color: #23A55A;
+}
+
+.SwitchInput-slide {
+    background-color: #80848E;
+}
+
+.StreamerModeSettings-primary-section {
+    background-color: #181818;
+    border-radius: 5px;
+}
+
+.StreamerModeSettings-primary-section:hover {
+    background-color: #1F1F1F;
+    border-radius: 5px;
+}
+
+.DesktopOptionsControlItemTemplate-container-active {
+    background-color: #1F1F1F;
+}
+
+.StatusMessage-container-desktop.StatusMessage-container-clickable {
+    background-color: #1F1F1F;
+}
+
+.ServerSubscriptionBar-container {
+    background-color: #181818;
+}
+
+.PersistentUpsell-container-flavor-settings {
+    background-color: #181818;
+}
+
+.SocialLinkPanel-header {
+    background-color: #181818;
+}
+
+.ItemKeybindInput-container {
+    background-color: #181818;
+}
+
+.UserSettingsServerSubscriptionsUpsell-container {
+    background-color: #181818;
+}
+
+.CheckboxPanel-container-selected {
+    background-color: #181818;
+}
+
+.CheckboxPanel-container-clickable {
+    background-color: #181818;
+}
+
+.Navbar-container {
+    background-color: #181818;
+}
+
+.GroupSelector-container {
+    background-color: #181818;
+}
+
+.TeamOverviewBanner-banner {
+    background-color: #181818;
+}
+
+.UserProfileV3-container-thick-scrollbar {
+    background-color: #1F1F1F;
+}
+
+.TeamEmbedCard-content {
+    background-color: #181818;
+}
+
+.PlayerCardProfilePicture-indicator {
+    border-color: #181818;
+}
+
+.PlayerCardProfilePicture-container-size-xlg .PlayerCardProfilePicture-indicator {
+    border-color: none;
+}
+
+.ChatChannelListItem-container-selected {
+    background-color: #1F1F1F;
+}
+
+.ChatChannelListItem-container-selected .ChatChannelListItem-remove-icon {
+    background: none;
+}
+
+.OptionsMenuPageWrapper-container {
+    background-color: #1F1F1F;
+}
+
+.TeamBotsManagerOverlay-empty-state {
+    background-color: #181818;
+}
+
+.TeamBotsManagerEmptyState-bot {
+    border-radius: 5px;
+    background-color: #1F1F1F;
+}
+
+.TeamBotsManagerOverlay-sidebar {
+    background-color: #181818;
+}
+
+.TeamBotsManagerBotSettingsExternal-kick {
+    background-color: #181818;
+}
+
+.BotInfoBody-container {
+    background-color: #181818;
+}
+
+.TeamBotsManagerBotApi-cta {
+    background-color: #181818;
+}
+
+.TeamBotsManagerBotApi-publish {
+    background-color: #181818;
+}
+
+.TeamBotsManagerBotApi-publish-banner {
+    background-color: #181818;
+}
+
+.TeamBotsManagerBotSettings-delete {
+    background-color: #181818;
+}
+
+.BotInfoHeaderAvatar-status {
+    border: 4px solid #181818;
+}
+
+.RadiosField-panel-inputs.RadiosField-layout-vertical .RadiosField-option-panel {
+    background-color: #181818;
+}
+
+.UserCTAPanel-container-style-bordered .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
+    background-color: #181818;
+}
+
+.TeamPageContent-content {
+    background-color: #1F1F1F;
+}
+
+.PostDisplayV2-container {
+    background-color: #181818;
+}
+
+.ChannelWrapper-container-scrollable .ChannelWrapper-content {
+    background-color: #1F1F1F;
+}
+
+.DocDisplayItem-container-aspect-ratio .DocDisplayItem-preview-summary {
+    background-color: #181818;
+}
+
+.DocDisplayItem-summary-info {
+    background-color: #181818;
+}
+
+.TeamRecruitment-inline-application {
+    background-color: #181818;
+}
+
+.FullScreenFlowStageWrapper-contents-wrapper {
+    background-color: #181818;
+}
+
+.ItemChooserItemWrapper-container {
+    background-color: #1F1F1F;
+}
+
+.VoiceChannelDisplay-container-child {
+    background-color: #181818;
+}
+
+.TeamEventDetails-status {
+    background-color: #181818;
+}
+
+.EventCardMetadata-container-size-lg {
+    background-color: #181818;
+}
+
+.TeamEventDetails-post-metadata,
+.TeamEventDetails-status,
+.TeamEventDetails-item {
+    background-color: #181818;
+}
+
+.UpcomingCalendarDay-container {
+    background-color: #181818;
+}
+
+.FullSizedCalendar-day {
+    background-color: #181818;
+}
+
+.PinnedAnnouncements-announcement {
+    background-color: #181818;
+}
+
+.TeamListItemWrapper-container {
+    background-color: #181818;
+}
+
+.TeamListItemIndentWrapper-container-is-child {
+    background-color: #181818;
+}
+
+.DefaultReadonlyEditableForm-container {
+    background-color: #181818;
+}
+
+.FormSection-container-section-border-lg:not(:first-child),
+.FormSection-container-section-border-lg:not(.FormSection-container-with-header) {
+    background-color: #181818;
+}
+
+.UserInfoSummaryItem-container-layout-grid {
+    background-color: #181818;
+}
+
+.ApplicantSummaryCard-container .ApplicantSummaryCard-buttons-applied-date {
+    background-color: #181818;
+}
+
+.TeamForumsThreadsDisplay-list .TeamForumsThreadsDisplay-list-item {
+    background-color: #181818;
+}
+
+.TeamThreadPostPanel-display {
+    background-color: #181818;
+}
+
+.TeamThreadReplyCreator-editor {
+    background-color: #181818;
+}
+
+
+.StreamsDisplayV2-view-wrapper {
+    background-color: #181818;
+}
+
+.StreamsDisplayV2-controls {
+    background-color: #181818;
+}
+
+/* Explore */
+.TeamExplore {
+    background: none;
+    background-color: #181818;
+}
+
+.CardWrapper-container.CardWrapper-container-desktop.CardWrapper-container-actionable {
+    background-color: #181818;
+}
+
+/* Voice */
+.VoiceConnectionDisplayPanelContents-footer {
+    background-color: #181818;
+}
+
+.VoiceConnectionDisplayPanelContents-header {
+    background-color: #181818;
+}
+
+.VoiceConnectionDisplayPanelContents-participants {
+    background-color: #1F1F1F;
+}
+
+/* Modal */
+.ModalV2-modal-content-scrollable {
+    background-color: #1F1F1F;
+}
+
+.ModalV2-container-has-header .ModalV2-modal-content {
+    background-color: #181818;
+}
+
+.Select,
+.Select div,
+.Select input,
+.Select span {
+    background-color: #1F1F1F;
+}
+
+.ApplyToTeam-container {
+    background-color: #181818;
+}
+
+.ModalHeaderV2-container {
+    background-color: #181818;
+}
+
+.ModalFooter-container {
+    background-color: #181818;
+}
+
+.QuickActionBar-container {
+    background-color: #181818;
+}
+
+/* Profile */
+.UserProfileV3-profile-content {
+    background-color: #1F1F1F;
+}
+
+.ProfileHoverCardOverlay-container {
+    background-color: #181818;
+}
+
+.UserProfileHeader-profile-picture-wrapper {
+    background-color: #1F1F1F;
+}
+
+
+.ScreenHeader-container {
+    background-color: #1F1F1F;
+}
+
+.StatusMessage-container-persistent.StatusMessage-container-type-info {
+    background-color: #181818;
+}
+
+
+.UserProfilePostPanel-container {
+    background-color: #181818;
+}
+
+
+.UserProfilePostPanel-container-highlight {
+    border-top: none;
+}
+
+
+/* Sidebar(s) */
+.WebAppSidebar-portal {
+    background-color: #181818;
+}
+
+.NavV4TeamSelector-container {
+    background-color: #181818;
+}
+
+.NavV4SidebarFooter-container {
+    background-color: #181818;
+}
+
+.GlobalSearchResult-container {
+    background-color: #181818;
+}
+
+.GlobalSearchResultSection-container {
+    background-color: #181818;
+}
+
+.GlobalSearchResults-none-text,
+.GlobalSearchResults-no-results {
+    background-color: #181818;
+}
+
+.GlobalSearchResult-container-desktop.GlobalSearchResult-container-focused {
+    background-color: #1F1F1F;
+}
+
+.NavV4SectionSidebar-container {
+    background-color: #181818;
+}
+
+
+.NavV4FooterGlobalContextDisplay-teams-wrapper {
+    background-color: #181818;
+}
+
+/* Footer */
+.NavV4Footer-footer-content {
+    background-color: #181818;
+}
+
+.NavV4Footer-right {
+    background-color: #181818;
+    --border-color: #181818;
+}
+
+/* Media */
+.MediaSplitView-container-desktop .MediaSplitView-preview {
+    background-color: #181818;
+}
+
+.MaximizedImageOverlay-image {
+    border-radius: 5px;
+}
+
+.MediaSplitView-container-desktop .MediaSplitView-info-pane {
+    background-color: #1F1F1F;
+}
+
+.RawVideoPlayer-container-loaded .RawVideoPlayer-video {
+    border-radius: 5px;
+}
+
+/* Group chat/chat */
+.SidebarWrapper-container:not(.SidebarWrapper-container-collapsed) {
+    background-color: #181818;
+}
+
+.ChatSummary-container {
+    background-color: #1F1F1F;
+}
+
+.SidebarInfoItem-container {
+    background-color: #1F1F1F;
+}
+
+
+.ChatChannelMessagesList-container {
+    background-color: #1F1F1F;
+}
+
+
+.ChatChannelInput-container {
+    background-color: #1F1F1F;
+}
+
+.ChatChannelInputStatusDrawer-typeahead-portal-target,
+.ChatChannelInputStatusDrawer-inline-reply-bar {
+    background-color: #181818;
+}
+
+.ChatChannelInput-container .ChatChannelInput-editor {
+    background-color: #181818;
+    --secondary-icon-background-color: #181818;
+}
+
+
+.TeamPageSidebarMembersV2-container {
+    background-color: #1F1F1F;
+}
+
+
+.TeamNavMenu-wrapper-thick-scrollbar {
+    background-color: #181818;
+}
+
+/* Friends (scroll bar) */
+.ChatChannelList-container {
+    background-color: #181818;
+}
+
+/* Reaction menu */
+.ReactionPicker-grid-container {
+    background-color: #1F1F1F;
+}
+
+.ReactionPickerNavbar-container {
+    background-color: #181818;
+}
+
+.ReactionPickerFooter-container {
+    background-color: #181818;
+}
+
+.ReactionPicker-search {
+    background-color: #1F1F1F;
+}
