@@ -1,0 +1,91 @@
+/* Profile picture */   
+.PlayerCardProfilePicture-avatar, .UserProfilePictureControl-picture, .CircleImageStack-image {
+    -webkit-mask: center/cover no-repeat;
+}
+:only-child>.PlayerCardProfilePicture-avatar:only-child {
+    -webkit-mask: none !important;
+}
+/* Small avatar */
+.PlayerCardProfilePicture-container-size-sm .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.84375' cy='0.84375' r='0.25'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.CircleImageStack-container-size-md .CircleImageStack-image {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.7857142857' cy='0.7857142857' r='0.25'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+/* Medium avatar */
+.PlayerCardProfilePicture-container-size-md .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8571428571' cy='0.8571428571' r='0.2380952381'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.ItemManagerListItem-icon-wrapper .PlayerCardProfilePicture-container-size-md .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8125' cy='0.8125' r='0.28125'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+/* Large avatar */
+.PlayerCardProfilePicture-container-size-lg .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.875' cy='0.875' r='0.2083333333'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+/* Extra large avatar */
+.PlayerCardProfilePicture-container-size-xlg .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8541666667' cy='0.8541666667' r='0.1875'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+/* Full avatar */
+.UserProfilePictureControl-picture {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8833333333' cy='0.8833333333' r='0.1583333333'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+/* Statuses */
+.OnlineStatusDisplay-container {
+    border: unset !important;
+    border-radius: 50%;
+    -webkit-mask: center/calc(100% - 4px) no-repeat; /* this would've been much easier if chrome supported luminance masks */
+}
+.ContextMenuIcon-container-color {
+    -webkit-mask: center/cover no-repeat;
+}
+.UserProfilePictureControl-online-status {
+    right: 0; 
+}
+.OnlineStatusDisplay-container-size-xlg {
+    width: 28px;
+    height: 28px;
+}
+.TeamWidgetProfileDetails-container-size-md .OnlineStatusDisplay-container-size-sm {
+    width: 16px;
+    height: 16px;
+    bottom: -1px;
+    right: -1px;
+}
+.TeamWidgetProfileDetails-container-size-md-lg .OnlineStatusDisplay-container-size-md {
+    width: 20px;
+    height: 20px;
+}
+.OnlineStatusDisplay-container-size-xs {
+    width: 14px;
+    height: 14px;
+}
+.LoggedInUserAvatar-online-status {
+    padding: 2px;
+}
+/* Online */
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(83, 218, 51);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/></svg>");
+    background-color: hsl(139, 47.3%, 43.9%) !important;
+}
+/* Do not disturb */
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(223, 83, 83);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><rect fill='black' x='0.125' y='0.375' width='0.75' height='0.25' rx='0.125' ry='0.125'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(359, 82.6%, 59.4%) !important;
+}
+/* Away */
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(236, 178, 0);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.25' cy='0.25' r='0.375'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(38, 95.7%, 54.1%) !important;
+}
+/* Streaming */
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(145, 70, 255);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><polygon fill='black' points='0.35,0.25 0.78301275,0.5 0.35,0.75'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(262, 46.8%, 39.8%) !important;
+}
+/* Offline */
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(163, 163, 172);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.5' cy='0.5' r='0.25'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(214, 9.9%, 50.4%) !important;
+}
