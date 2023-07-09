@@ -10,6 +10,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
 
+        :index {
+            --twiter: "https://twitter.com/_notaussie";
+        }
+
         html * {
             font-family: "IBM Plex Sans";
             background-color: #ffffff;
@@ -23,7 +27,7 @@
             align-self: center;
             border-radius: 5px;
             padding: 5px;
-            display: inline;
+            /* display: inline; */
         }
 
         a {
@@ -58,19 +62,6 @@
             height: 100%;
         }
 
-        #name {
-            display: inline;
-        }
-
-        #pronouns {
-            display: inline;
-            color: gray;
-            height: inherit;
-            font-size: large;
-            padding: 5px;
-            top: 15px;
-        }
-
         .avatar {
             width: 150px;
             height: 150px;
@@ -82,22 +73,19 @@
 
 <body>
     <script src="https://kit.fontawesome.com/64e5c43305.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
     <!-- Main content -->
     <div align="center" class="center">
         <img src="images/avatar.png" alt="Profile image by plenka on new grounds." class="avatar">
         <br>
 
-        <h1 id="name"><span>NotAussie</span></h1>
-
-        <h1 id="pronouns">(He/Him)</h1>
-
+        <h1 >NotAussie</h1>
 
         <p>Just a weird teen who's coding for the future.</p>
-
-        <a href="https://twitter.com/_notaussie" target="_blank"><button><i class="fa-brands fa-twitter fa-xl"></i></button></a>
-        <a href="https://discordapp.com/users/1084139494934065184e"><button><i class="fa-brands fa-discord fa-xl"></i></button></a>
-        <a href="https://guilded.gg/u/notaussie" target="_blank"><button><i class="fa-brands fa-guilded fa-xl"></i></button></a>
-        <a href="https://github.com/notaussie" target="_blank"><button><i class="fa-brands fa-github fa-xl"></i></button></a>
+        <a onclick="twitter()"><button><i class="fa-brands fa-twitter fa-xl"></i></button></a>
+        <a onclick="discord()"><button><i class="fa-brands fa-discord fa-xl"></i></button></a>
+        <a onclick="guilded()"><button><i class="fa-brands fa-guilded fa-xl"></i></button></a>
+        <a onclick="github()"><button><i class="fa-brands fa-github fa-xl"></i></button></a>
         <a href="#" target="_blank"><button><i class="fa-solid fa-book fa-xl"></i></button></a>
     </div>
     </div>
